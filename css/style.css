@@ -1,0 +1,94 @@
+body{
+  background: url(../img/texture.jpg);
+}
+.main{
+  margin-right:auto;
+  margin-left:auto;
+  width:960px;
+  background: #D3D3D3;
+
+}
+#top
+{
+  float:left;
+  width:960px;
+  background: black;
+}
+.shipping{
+  width:400px;
+  float:left;
+  margin-bottom: 0;
+  font-family: 'Fjalla One', sans-serif;
+}
+#acc{
+  float:right;
+  margin-bottom:0;
+  font-family: 'Fjalla One', sans-serif;
+}
+a{
+  color: #3399ff;
+  text-decoration:none;
+}
+#sign{
+  margin-bottom: 0;
+}
+
+#sign li{
+  display:inline;
+  float:right;
+}
+#logo{
+  float:left;
+}
+.menu{
+  width:825px;
+  float:right;
+}
+.menu li{
+  display:inline;
+}
+.menu a{
+  color:#0066ff;
+}
+#hero{
+  width:960px;
+}
+
+#chrono{
+  width:960px;
+  height:600px
+}
+.container_12{
+  height:500px;
+}
+#block1{
+  background: url(../img/block1.jpg) no-repeat;
+  height: 180px;
+  margin-top:30px;
+  margin-left: 15px;
+}
+
+#block2{
+  background: url(../img/block2.jpg) no-repeat;
+  height: 180px;
+  margin-top:30px;
+}
+
+#block3{
+  background: url(../img/block3.jpg) no-repeat;
+  height: 180px;
+  margin-top:30px;
+}
+.executive{
+  font-family: 'Fjalla One', sans-serif;
+  margin-left: 15px;
+}
+.women{
+  font-family: 'Fjalla One', sans-serif;
+  margin-left: 15px;
+}
+.casual{
+  font-family: 'Fjalla One', sans-serif;
+  margin-left: 0;
+  margin-right: 0;
+}
