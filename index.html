@@ -8,20 +8,22 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/text.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
   </head>
   <body>
-    <div class="super">
     <div class="main">
-      <div id="top">
+    <!--  <div id="top">
           <h5 class="shipping"><font color="white">FREE SHIPPING ON ORDERS</font></h5>
           <ul  id="sign" >
             <li><a href="#">Sign In</a></li>
             <li><a href="#">Register</a></li>
           </ul>
-            <h5 id="acc"><font color="white">MY ACCOUNT</font></h5>
-      </div>
+          <h5 id="acc"><font color="white">MY ACCOUNT</font></h5>
+      </div>-->
       <header>
-        <img  id="logo" src="img/logo.jpg" alt="Rolex logo" >
+        <img  id="logo" src="img/logo1.jpg" alt="Rolex logo" >
         <ul class="menu">
           <li><a href="#">Women</a> </li>
           <li><a href="#">Men</a></li>
@@ -32,21 +34,49 @@
           <li><a href="#">Sport</a></li>
           <li><a href="#">Straps</a></li>
           <li><a href="#">Collections</a></li>
-          <li><a href="#">SALE</a></li>
         </ul>
       </header>
-      <div id="hero">
-        <img   id="chrono" src="img\timex.jpg" alt="Hero">
+      <!--crossfading effect by adding two images in hero unit-->
+      <div id="crossfade">
+        <img   class="chrono" src="img\timex.jpg" alt="Hero">
+        <img   class="chrono" src="img\561630.jpg" alt="Hero">
+        <img   class="chrono" src="img\586550.jpg" alt="Hero">
+        <img   class="chrono" src="img\590532.jpg" alt="Hero">
+        <img   class="chrono" src="img\602554.jpg" alt="Hero">
+        <div class="backdrop"></div>
+        <div class="caption"><blockquote><div class="quotation">"</div>  Yesterday is gone. Tomorrow has not yet come. We have only today.  Let us begin.<div class="quotation" id="q2">"</div></blockquote></div><!--<div class="caption-backdrop"></div>--></div>
       </div>
-      <div class="container_12">
-        <a href="#" id="block1" class=" grid_4"></a>
-        <a href="#" id="block2" class="grid_4"></a>
-        <a href="#" id="block3" class="grid_4 omega"></a>
-        <h3 class="executive grid_4"> EXECUTIVE COLLECTION</h3>
-        <h3 class="women grid_4"> WOMEN COLLECTION</h3>
-        <h3 class="casual grid_4"> CASUAL COLLECTION</h3>
-      </div>
-    </div>
+        <!--I made the images clickable by making the background as the image required of the anchor tag-->
+        <div class="container_12">
+          <a href="#" id="block1" class=" grid_4"></a>
+          <a href="#" id="block2" class="grid_4"></a>
+          <a href="#" id="block3" class="grid_4 omega"></a>
+          <h3 class="executive grid_4"> EXECUTIVE COLLECTION</h3>
+          <h3 class="women grid_4"> WOMEN COLLECTION</h3>
+          <h3 class="casual grid_4"> CASUAL COLLECTION</h3>
+          <p class=" gridp grid_4">Business collection consists of watches exclusively designed for people who have a taste for craftmanship</p>
+          <p class=" gridp grid_4">Women collection consists of watches for women who want to reward themselves for all that they have achieved </p>
+          <p class=" gridp grid_4">Casual collection consists of watches which are designed for reglar use</p>
+        </div>
+
+      <section class="para">
+        <p class="grid_12">A watch is a small timepiece intended to be carried or worn by a person. It is designed to keep working despite the motions caused by the person's activities.
+           A wristwatch is designed to be worn on a wrist, attached by a watch strap or other type of bracelet. A pocket watch is designed for a person to carry in a pocket.
+         </p>
+        <p class="grid_12">Watches evolved in the 17th century from spring-powered clocks, which appeared as early as the 14th century. The first watches were strictly mechanical,
+           driven by clockwork. As technology progressed, mechanical devices, used to control the speed of the watch, were largely superseded by vibrating quartz crystals
+           that produce accurately timed electronic pulses. Some watches use radio clock technology to regularly correct the time. The first digital electronic watch was developed
+           in 1970.
+        </p>
+      </section>
+      <footer>
+        <p   id="signoff">Designed By GAYAPRASHAD</P>
+          <div class="foot">
+            <a href="#"><i class=" icon fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
+            <a href="#"><i class="icon fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+            <a href="#"><i class="icon fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+          </div>
+      </footer>
     </div>
   </body>
 </html>

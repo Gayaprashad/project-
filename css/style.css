@@ -1,75 +1,154 @@
-body{
-  background: url(../img/texture.jpg);
+html,body{
+  background: white;
+  height: 100%;
 }
-.main{
+
+.main {
+  height: 100%;
+}
+
+.backdrop {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: whitesmoke;
+  opacity: 0.5;
+}
+
+.caption {
+  position: relative;
+  top: 85%;
+  left: 10%;
+  font-size: 25px;
+  font-family: 'Open Sans';
+  width: 1000px;
+  height: 250px;
+  /*height: 100%;*/
+  /*background: maroon;*/
+  /*color: black;*/
+  /*opacity: 0.7;*/
+}
+blockquote {
+  position: absolute;
+  z-index: 1000;
+  font-size:30px;
+}
+.caption-backdrop {
+  position: absolute;
+  background-color: whitesmoke;
+  opacity: 0.6;
+  width: 100%;
+  height: 100%;
+}
+.quotation
+{
+  float:left;
+  margin-right:10px;
+  width:10px;
+  font-family: 'Fjalla One', sans-serif;
+
+}
+
+#q2{
+  float:right;
+}
+/*.main{
   margin-right:auto;
   margin-left:auto;
   width:960px;
-  background: #D3D3D3;
-
-}
-#top
-{
-  float:left;
-  width:960px;
+ background: #D3D3D3;
+}*/
+#top{
+  height:20px;
   background: black;
+  margin-right:auto;
+  margin-left:auto;
+  width:1349px;
 }
 .shipping{
   width:400px;
   float:left;
-  margin-bottom: 0;
+  margin-left:200px;
+  margin-bottom: 5px;
   font-family: 'Fjalla One', sans-serif;
 }
 #acc{
   float:right;
-  margin-bottom:0;
+  margin-bottom:5px;
   font-family: 'Fjalla One', sans-serif;
 }
+
 a{
-  color: #3399ff;
   text-decoration:none;
+  text-align:center;
+  color:black;
 }
+
+header{
+  position: fixed;
+  left: 0;
+  right:0;
+  margin: 0 auto;
+  width:960px;
+  clear:both;
+  z-index: 99;
+}
+.menu li a{
+  font-family: 'Fjalla One', sans-serif;
+  text-transform:uppercase;
+  font-size: 18px;
+}
+
 #sign{
   margin-bottom: 0;
+  margin-right: 233px;
 }
 
 #sign li{
   display:inline;
   float:right;
 }
+#sign li a{
+  color:white;
+}
+
 #logo{
   float:left;
-  margin-top: 10px;
-  margin-left:10px
+  margin-top: 0;
+  margin-left:0;
 }
 .menu{
   margin-top: 10px;
-  width:825px;
+  width:750px;
   float:right;
 }
 .menu li{
   display:inline;
-}
-.menu a{
-  color:#0066ff;
-}
-#hero{
-  width:960px;
+  color: black;
 }
 
-#chrono{
-  margin-top: 10px;
-  width:960px;
-  height:600px
+#crossfade{
+  /*height:700px*/
+  height: 100%;
+  position: relative;
+
 }
-.container_12{
-  height:500px;
+
+.chrono{
+  width:100%;
 }
+
 #block1{
   background: url(../img/block1.jpg) no-repeat;
   height: 180px;
   margin-top:30px;
   margin-left: 15px;
+}
+/*this is used to add opacity effect when I hover over the elements in the block*/
+
+#block1:hover{
+  opacity:0.5;
+  filter:alpha(0.5);
 }
 
 #block2{
@@ -77,11 +156,20 @@ a{
   height: 180px;
   margin-top:30px;
 }
+#block2:hover{
+  opacity:0.5;
+  filter:alpha(0.5);
+}
 
 #block3{
   background: url(../img/block3.jpg) no-repeat;
   height: 180px;
   margin-top:30px;
+  margin-left:0;
+}
+#block3:hover{
+  opacity:0.5;
+  filter:alpha(0.5);
 }
 .executive{
   font-family: 'Fjalla One', sans-serif;
@@ -89,10 +177,155 @@ a{
 }
 .women{
   font-family: 'Fjalla One', sans-serif;
-  margin-left: 15px;
+  margin-left: 10px;
 }
 .casual{
   font-family: 'Fjalla One', sans-serif;
   margin-left: 0;
   margin-right: 0;
 }
+.gridp{
+    font-family: 'Lobster', cursive;
+    font-size: 15px;
+    font-weight:100;;
+    width:180;
+}
+.para{
+
+  height:150px;
+  color:black;
+  width:960px;
+  margin:auto;
+}
+footer{
+  height:25px;
+  border-width:1px 0px 0px 0px;
+  border-style: solid;
+  border-color: black;
+}
+#signoff{
+    font-family: 'Fjalla One', sans-serif;
+    color: black;
+}
+
+.icon{
+  float:right;
+}
+
+i{
+ margin:0px 5px
+}
+footer {
+  width:1349px;
+  float:left;
+  color:black;
+}
+footer p{
+
+  float:left;
+
+}
+
+.foot{
+  float:right;
+  right:195px
+  margin-right:195px;
+}
+
+#crossfade > img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /*top: 100px;*/
+    left: 0px;
+    color: transparent;
+    opacity: 0;
+    z-index: 0;
+    -webkit-backface-visibility: hidden;
+    -webkit-animation: imageAnimation 30s linear infinite 0s;
+    -moz-animation: imageAnimation 30s linear infinite 0s;
+    -o-animation: imageAnimation 30s linear infinite 0s;
+    -ms-animation: imageAnimation 30s linear infinite 0s;
+    animation: imageAnimation 30s linear infinite 0s;
+}
+
+#crossfade > img:nth-child(2)  {
+    -webkit-animation-delay: 6s;
+    -moz-animation-delay: 6s;
+    -o-animation-delay: 6s;
+    -ms-animation-delay: 6s;
+    animation-delay: 6s;
+}
+#crossfade > img:nth-child(3) {
+    -webkit-animation-delay: 12s;
+    -moz-animation-delay: 12s;
+    -o-animation-delay: 12s;
+    -ms-animation-delay: 12s;
+    animation-delay: 12s;
+}
+#crossfade > img:nth-child(4) {
+    -webkit-animation-delay: 18s;
+    -moz-animation-delay: 18s;
+    -o-animation-delay: 18s;
+    -ms-animation-delay: 18s;
+    animation-delay: 18s;
+}
+#crossfade > img:nth-child(5) {
+    -webkit-animation-delay: 24s;
+    -moz-animation-delay: 24s;
+    -o-animation-delay: 24s;
+    -ms-animation-delay: 24s;
+    animation-delay: 24s;
+}
+
+@-webkit-keyframes imageAnimation {
+    0% { opacity: 0;
+    -webkit-animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         -webkit-animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+
+@-moz-keyframes imageAnimation {
+    0% { opacity: 0;
+    -moz-animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         -moz-animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+
+@-o-keyframes imageAnimation {
+    0% { opacity: 0;
+    -o-animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         -o-animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+
+@-ms-keyframes imageAnimation {
+    0% { opacity: 0;
+    -ms-animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         -ms-animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+
+@keyframes imageAnimation {
+    0% { opacity: 0;
+    animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+
+/*register page*/
