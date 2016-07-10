@@ -1,5 +1,5 @@
 html,body{
-  background: white;
+  background: whitesmoke;
   height: 100%;
 }
 
@@ -11,7 +11,7 @@ html,body{
   width: 100%;
   position: absolute;
   background: whitesmoke;
-  opacity: 0.5;
+  opacity: 0.3;
 }
 
 .caption {
@@ -40,6 +40,7 @@ header{
   z-index: 99;
 }
 .menu li a{
+  text-shadow: 0px 1px 1px  white;
   font-family: 'Fjalla One', sans-serif;
   text-transform:uppercase;
   font-size: 18px;
@@ -195,6 +196,7 @@ blockquote{
 
 #search
 {
+  height:773px;
   width:15%;
   float:left;
 }
@@ -217,18 +219,34 @@ blockquote{
   margin-left:3px;
   margin-top:3px;
 }
-#item{
+.item{
   padding:8px;
-  border: 2px solid #e5e5e5;
+  border: 1px solid #660000;
 }
-#item img{
+.item img{
   padding:5px;
 }
+.container_12 .grid_2{
+  width:144px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+#item1{
+  border-right: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+#item4{
+  border-bottom: 1px solid #ffffff;
+}
+#itemb{
+    border-right: 1px solid #ffffff;
+}
+
 #white {
   padding-right: 4px;
 }
 .name{
-  padding-left: 7px;
+  padding-left: 42px;
   font-family: 'Fjalla One', sans-serif;
 }
 .icon{
@@ -239,8 +257,8 @@ label{
   font-family: 'Fjalla One', sans-serif;
 }
 footer{
-  height:25px;
-  border-width:1px 0px 0px 0px;
+
+  border-width:3px 0px 3px 0px;
   border-style: solid;
   border-color: black;
 }
@@ -258,6 +276,8 @@ footer p{
 
 }
 #signoff{
+    margin-bottom:0px;
+    font-size: 17px;
     font-family: 'Fjalla One', sans-serif;
     color: black;
 }

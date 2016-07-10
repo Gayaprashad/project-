@@ -31,7 +31,8 @@ html,body{
 blockquote {
   position: absolute;
   z-index: 1000;
-  font-size:30px;
+  font-size:25px;
+  text-shadow: 0px 1px 1px  black;
 }
 .caption-backdrop {
   position: absolute;
@@ -199,11 +200,13 @@ header{
 }
 footer{
   height:25px;
-  border-width:1px 0px 0px 0px;
+  border-width:2px 0px 2px 0px;
   border-style: solid;
   border-color: black;
 }
 #signoff{
+    font-size: 17px;
+    margin-bottom: 0px;
     font-family: 'Fjalla One', sans-serif;
     color: black;
 }
