@@ -1,0 +1,268 @@
+html,body{
+  background: white;
+  height: 100%;
+}
+
+.main {
+  height: 100%;
+}
+.backdrop {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: whitesmoke;
+  opacity: 0.5;
+}
+
+.caption {
+  position: relative;
+  top: 87.5%;
+  left: 10%;
+  font-size: 25px;
+  font-family: 'Open Sans';
+  width: 1000px;
+  height: 250px;
+}
+
+a{
+  text-decoration:none;
+  text-align:center;
+  color:black;
+}
+
+header{
+  position: relative;
+  left: 0;
+  right:0;
+  margin: 0 auto;
+  width:960px;
+  clear:both;
+  z-index: 99;
+}
+.menu li a{
+  font-family: 'Fjalla One', sans-serif;
+  text-transform:uppercase;
+  font-size: 18px;
+}
+
+#sign{
+  margin-bottom: 0;
+  margin-right: 233px;
+}
+
+#sign li{
+  display:inline;
+  float:right;
+}
+#sign li a{
+  color:white;
+}
+
+#logo{
+  float:left;
+  margin-top: 0;
+  margin-left:0;
+}
+.menu{
+  margin-top: 10px;
+  width:750px;
+  float:right;
+}
+.menu li{
+  display:inline;
+  color: black;
+}
+
+#crossfade{
+  /*height:700px;*/
+  height: 80%;
+  position: relative;
+
+}
+
+blockquote{
+  position:relative;
+  left:143px;
+    width:100%;
+    height:50px;
+    font-size:30px;
+}
+#quotes
+{
+  float:left;
+  width:10px;
+  font-family: 'Fjalla One', sans-serif;
+
+}
+
+
+.chrono{
+  width:100%;
+}
+
+#crossfade > img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /*top: 100px;*/
+    left: 0px;
+    color: transparent;
+    opacity: 0;
+    z-index: 0;
+    -webkit-backface-visibility: hidden;
+    -webkit-animation: imageAnimation 20s slinear infinite 0s;
+    -moz-animation: imageAnimation 20s linear infinite 0s;
+    -o-animation: imageAnimation 20s linear infinite 0s;
+    -ms-animation: imageAnimation 20s linear infinite 0s;
+    animation: imageAnimation 20s linear infinite 0s;
+}
+
+#crossfade > img:nth-child(2)  {
+    -webkit-animation-delay: 5s;
+    -moz-animation-delay: 5s;
+    -o-animation-delay: 5s;
+    -ms-animation-delay: 5s;
+    animation-delay: 5s;
+}
+#crossfade > img:nth-child(3) {
+    -webkit-animation-delay: 10s;
+    -moz-animation-delay: 10s;
+    -o-animation-delay: 10s;
+    -ms-animation-delay: 10s;
+    animation-delay: 10s;
+}
+#crossfade > img:nth-child(4) {
+    -webkit-animation-delay: 15s;
+    -moz-animation-delay: 15s;
+    -o-animation-delay: 15s;
+    -ms-animation-delay: 15s;
+    animation-delay: 15s;
+}
+
+@-webkit-keyframes imageAnimation {
+    0% { opacity: 0;
+    -webkit-animation-timing-function: ease-in; }
+    25% { opacity: 1;
+         -webkit-animation-timing-function: ease-out; }
+    50% { opacity: 1 }
+    75% { opacity: 0 }
+    100% { opacity: 0 }
+}
+
+@-moz-keyframes imageAnimation {
+    0% { opacity: 0;
+    -moz-animation-timing-function: ease-in; }
+    25% { opacity: 1;
+         -moz-animation-timing-function: ease-out; }
+    50% { opacity: 1 }
+    75% { opacity: 0 }
+    100% { opacity: 0 }
+}
+
+@-o-keyframes imageAnimation {
+    0% { opacity: 0;
+    -o-animation-timing-function: ease-in; }
+    25% { opacity: 1;
+         -o-animation-timing-function: ease-out; }
+    50% { opacity: 1 }
+    75% { opacity: 0 }
+    100% { opacity: 0 }
+}
+
+@-ms-keyframes imageAnimation {
+    0% { opacity: 0;
+    -ms-animation-timing-function: ease-in; }
+    25% { opacity: 1;
+         -ms-animation-timing-function: ease-out; }
+    50% { opacity: 1 }
+    75% { opacity: 0 }
+    100% { opacity: 0 }
+}
+
+@keyframes imageAnimation {
+    0% { opacity: 0;
+    animation-timing-function: ease-in; }
+    25% { opacity: 1;
+         animation-timing-function: ease-out; }
+    50% { opacity: 1 }
+    75% { opacity: 0 }
+    100% { opacity: 0 }
+}
+
+#cont{
+  padding-top: 20px;
+}
+
+#search
+{
+  width:15%;
+  float:left;
+}
+
+#search section:nth-child(1) li
+{
+  list-style: none;
+  margin-left:3px;
+  margin-top:3px;
+}
+#search section:nth-child(2) li
+{
+  list-style: none;
+  margin-left:3px;
+  margin-top:3px;
+}
+#search section:nth-child(3) li
+{
+  list-style: none;
+  margin-left:3px;
+  margin-top:3px;
+}
+#item{
+  padding:8px;
+  border: 2px solid #e5e5e5;
+}
+#item img{
+  padding:5px;
+}
+#white {
+  padding-right: 4px;
+}
+.name{
+  padding-left: 7px;
+  font-family: 'Fjalla One', sans-serif;
+}
+.icon{
+  float:right;
+}
+
+label{
+  font-family: 'Fjalla One', sans-serif;
+}
+footer{
+  height:25px;
+  border-width:1px 0px 0px 0px;
+  border-style: solid;
+  border-color: black;
+}
+i{
+ margin:0px 5px
+}
+footer {
+  width:1349px;
+  float:left;
+  color:black;
+}
+footer p{
+
+  float:left;
+
+}
+#signoff{
+    font-family: 'Fjalla One', sans-serif;
+    color: black;
+}
+.foot{
+  float:right;
+  right:195px
+  margin-right:195px;
+}

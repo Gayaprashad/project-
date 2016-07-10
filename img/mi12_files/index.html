@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<!-- saved from url=(0060)https://s1.2mdn.net/2338668/1466610202297/250x250/index.html -->
+<html><head xmlns="https://www.w3.org/1999/xhtml"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <meta name="ad.size" content="width=250,height=250">
+        <title>250x250</title>
+        <link rel="stylesheet" href="./main.css">
+        <script type="text/javascript">
+            var clickTag = "http://www.hpshopping.in/Ink_and_Toners?jumpid=ba_ud3ib5r71h/dm:_%s_%epid!_%eaid!_%ecid!_%eadv!&utm_medium=banner&utm_source=accuen&utm_campaign=hp_q3fy16_supplies_ink_and_toners_campaign_june_ba_ud3ib5r71h&utm_content=300x250";
+            console.log('clickTag function on html page triggerred');
+        </script>
+    <script type="text/javascript">
+    
+      (function() {
+        var relegateNavigation = '';
+        var handleClickTagMessage = function(e) {
+          try {
+            var eventData = JSON.parse(e.data);
+          } catch (err) {
+            return;
+          }
+          if (eventData.isInitClickTag) {
+            if (eventData.clickTags) {
+              for (var i = 0; i < eventData.clickTags.length; i++) {
+                var clkTag = eventData.clickTags[i];
+                window[clkTag.name] = clkTag.url;
+              }
+            } else if (eventData.clickTag) {
+              window.clickTag = eventData.clickTag;
+            }
+            relegateNavigation = eventData.relegateNavigation;
+          }
+        };
+
+        if (open.call) {
+          window.open = function(open) {
+            return function(url, name, features) {
+              if (relegateNavigation === 'parent') {
+                var message = {'clickTag': url, 'isPostClickTag': true};
+                parent.postMessage(JSON.stringify(message), '*');
+              } else {
+                var args = [url, name];
+                if (features) {
+                  args.push(features);
+                }
+                open.apply(window, args);
+              }
+            };
+          }(window.open);
+        }
+
+        if (window.addEventListener) {
+          window.addEventListener(
+              'message', handleClickTagMessage, false);
+        } else {
+          window.attachEvent('onmessage', handleClickTagMessage);
+        }
+      })();
+    
+  </script></head>
+    <body>
+       
+            
+            <div id="ad-container">                 
+            <div onclick="javascript:window.open(window.clickTag)" id="clickTag">
+            <!-- Ad content goes here -->
+                <div id="hp-logo">
+                    <img src="./R5_hp_logo.png" alt="hp logo">    
+                </div>
+
+                <!--CTA button-->
+                <div onmouseover="over();" onmouseout="out();" id="cta-container">
+                        <img src="./R5_cta.png" alt="cta">
+                </div>                
+                <!-- Copy container -->
+                <div id="copy-container">
+                    <div class="copy" id="copy-1" style="opacity: 1;">
+                        <img src="./R5_copy1.png" alt="copy 1">
+                    </div>
+                    <div class="copy" id="copy-2" style="opacity: 0; transform: matrix(1, 0, 0, 1, 15, 0);">
+                        <img src="./R5_copy2.png" alt="copy 2">
+                    </div>
+                    <div class="copy" id="copy-2b" style="opacity: 1; transform: matrix(1, 0, 0, 1, 15, 0);">
+                        <img src="./R5_copy2b.png" alt="copy 2b">
+                    </div>
+                    <div class="copy" id="copy-3a" style="opacity: 0; transform: matrix(1, 0, 0, 1, 0, 50);">
+                        <img src="./R5_copy3a.png" alt="copy 3a">
+                    </div>
+                    <div class="copy" id="copy-3b" style="opacity: 0; transform: matrix(1, 0, 0, 1, 0, 50);">
+                        <img src="./R5_copy3b.png" alt="copy 3b">
+                    </div>
+                    <div class="copy" id="copy-3c" style="opacity: 0; transform: matrix(1, 0, 0, 1, 0, 50);">
+                        <img src="./R5_copy3c.png" alt="copy 3c">
+                    </div>
+                    <div class="copy" id="copy-3d" style="opacity: 1;">
+                        <img src="./R5_copy3d.png" alt="copy 3d">
+                    </div>
+                    <div class="copy" id="copy-4" style="opacity: 1; transform: matrix(1, 0, 0, 1, -15, 0);">
+                        <img src="./R5_copy4.png" alt="copy 4">
+                    </div>
+                    <div class="copy" id="copy-header">
+                        <img src="./R5_copy_header.png" alt="copy header">
+                    </div>
+                    <div class="copy" id="copy-subhead1">
+                        <img src="./R5_copy_subhead1.png" alt="copy subhead1">
+                    </div>
+                    <div class="copy" id="copy-subhead2">
+                        <img src="./R5_copy_subhead2.png" alt="copy subhead2">
+                    </div>
+                </div>
+                <!-- Image container -->
+                <div id="img-container">
+                    <div class="img" id="printer" style="opacity: 1;">
+                        <img src="./R5_printer.png" alt="printer">
+                    </div>
+                    <div class="img" id="paper-1" style="transform: matrix(0.9063, 0.42261, -0.42261, 0.9063, -135, 300);">
+                        <img src="./R5_img1.png" alt="paper 1">
+                    </div>
+                    <div class="img" id="paper-2" style="transform: matrix(0.9848, 0.17364, -0.17364, 0.9848, -75, 310);">
+                        <img src="./R5_img2.png" alt="paper 2">
+                    </div>
+                    <div class="img" id="paper-3" style="transform: matrix(0.99619, 0.08715, -0.08715, 0.99619, 3, 325);">
+                        <img src="./R5_img3.png" alt="paper 3">
+                    </div>
+                    <div class="img" id="paper-4" style="transform: matrix(0.9848, -0.17364, 0.17364, 0.9848, 75, 320);">
+                        <img src="./R5_img4.png" alt="paper 4">
+                    </div>
+                    <div class="img" id="white-gradient">
+                        <img src="./R5_whiteGradient.png" alt="white gradient">
+                    </div>
+                    <div class="img" id="paper-1b" style="transform: matrix(1, 0, 0, 1, 0, 400);">
+                        <img src="./R5_img1.png" alt="paper 1">
+                    </div>
+                    <div class="img" id="paper-2b" style="transform: matrix(1, 0, 0, 1, 0, 400);">
+                        <img src="./R5_img2.png" alt="paper 2">
+                    </div>
+                    <div class="img" id="paper-3b" style="transform: matrix(1, 0, 0, 1, 0, 400);">
+                        <img src="./R5_img3.png" alt="paper 3">
+                    </div>
+                    <div class="img" id="paper-4b">
+                        <img src="./R5_img4.png" alt="paper 4">
+                    </div>
+                    <div class="img" id="paper-5a" style="transform: translate3d(-1.77422px, 1.77422px, 0px); opacity: 0.982258;">
+                        <img src="./R5_img5a.png" alt="paper 5a">
+                    </div>
+                    <div class="img" id="paper-5b" style="transform: translate3d(1.77422px, 1.77422px, 0px); opacity: 0.982258;">
+                        <img src="./R5_img5b.png" alt="paper 5b">
+                    </div>
+                    <div class="img" id="ef">
+                        <img src="./R5_ef_product.png" alt="ef product">
+                    </div>
+                    <div class="img" id="more-details">
+                        <img src="./R5_moreDetails.png" alt="more details">
+                    </div>
+                </div>
+                </div>
+            </div>
+        
+        <!-- Load external libraries here -->
+        <script src="./CSSPlugin.min.js" type="text/javascript"></script>
+        <script src="./TweenLite.min.js" type="text/javascript"></script>
+        <script src="./TimelineLite.min.js"></script>
+        <script src="./main.js" type="text/javascript"></script>
+    
+</body></html>

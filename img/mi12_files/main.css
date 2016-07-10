@@ -1,0 +1,178 @@
+/* HPL_WWD_P13677_TonerValue_FirstAlwayColor_300x250 */
+
+body {
+    margin:0;
+    padding: 0;
+}
+
+img {
+    border: none;
+}
+
+#clickTag {
+    width: 250px;
+    height: 250px;
+    top: 0px;
+    left: 0px;
+    cursor: pointer;
+    position: absolute;
+}
+
+#ad-container {
+    overflow: hidden;
+    width: 248px;
+    height: 248px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border: 1px solid #000;
+}
+
+#hp-logo {
+    opacity: 1;
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    width: 40px;
+}
+
+
+#partner-logo {
+    opacity: 0;
+    position: absolute;
+    left: 217px;
+    top: 13px;
+    z-index: 11;
+}
+
+
+#cta-container {
+    padding: 0;
+    opacity: 0;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 336px;
+    height: 280px;
+    z-index: 100;
+    
+}
+
+.copy {
+    opacity: 0;
+    position: absolute;
+    z-index: 20;
+}
+
+#copy-1 {
+    left: 0px;
+    top: 0px;
+}
+
+#copy-2, #copy-2b {
+    left: 0px;
+    top: 0px;
+}
+#copy-2b {
+	left: -5px;
+}
+
+#copy-3a {
+    left: 0px;
+    top: 0px;
+}
+
+#copy-3b {
+    left: 0px;
+    top: 0px;
+}
+
+#copy-3c {
+    left: 0px;
+    top: 0px;
+}
+
+#copy-3d {
+    left: 0px;
+    top: 0px;
+}
+
+#copy-4 {
+    left: 0px;
+    top: 0px;
+}
+
+#copy-header {
+    left: 0px;
+    top: 0px;
+}
+
+#copy-subhead1 {
+    left: 0px;
+    top: 0px;
+}
+
+#copy-subhead2 {
+    left: 0px;
+    top: 0px;
+}
+
+
+#img-container {
+    padding: 0;
+    margin: 0;
+    top: 0px;
+    left: 0px;
+}
+
+
+.img {
+    opacity: 0;
+    position: absolute;
+    z-index: 10;
+}
+
+#printer {
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+}
+
+#paper-1, #paper-2, #paper-3, #paper-4, #paper-1b, #paper-2b, #paper-3b, #paper-4b {
+    opacity: 1;
+    left: 0px;
+    top: -130px;
+}
+
+#paper-1b, #paper-2b, #paper-3b, #paper-4b {
+    z-index: 8;
+}
+
+#white-gradient {
+    opacity: 1;
+    left: 0px;
+    top: 0px;
+    z-index: 9;
+}
+
+#paper-5a {
+    left: 0px;
+    top: 0px;
+    z-index: 9;
+}
+
+#paper-5b {
+    left: 0px;
+    top: 0px;
+    z-index: 9;
+}
+
+#ef {
+    left: 0px;
+    top: 0px;
+}
+
+#more-details {
+    left: 0px;
+    top: 0px;
+}
