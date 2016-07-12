@@ -1,5 +1,5 @@
 html,body{
-  background: whitesmoke;
+  background: white;
   height: 100%;
 }
 
@@ -31,13 +31,22 @@ a{
 }
 
 header{
-  position: relative;
+  position: fixed;
   left: 0;
   right:0;
   margin: 0 auto;
-  width:960px;
+  width:100%;
   clear:both;
   z-index: 99;
+  opacity:0.9;
+  background:#d8d8db;
+}
+.logndmenu{
+    width:960px;
+    margin:auto;
+}
+#men1{
+    color:red;
 }
 .menu li a{
   text-shadow: 0px 1px 1px  white;
@@ -221,19 +230,29 @@ blockquote{
 }
 .item{
   padding:8px;
-  border: 1px solid #660000;
+  /* border: 1px solid #660000; */
 }
+.item:hover{
+  opacity:0.5;
+  filter:alpha(0.5);
+  color: whitesmoke;
+}
+
 .item img{
   padding:5px;
 }
 .container_12 .grid_2{
-  width:144px;
-  margin-left: 0px;
-  margin-right: 0px;
+  /* width:144px; */
+  /* margin-left: 0px; */
+  /* margin-right: 0px; */
+  background-color: whites;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /* text-align: center; */
 }
 #item1{
-  border-right: 1px solid #ffffff;
-  border-bottom: 1px solid #ffffff;
+  /* border-right: 1px solid #ffffff; */
+  /* border-bottom: 1px solid #ffffff; */
 }
 #item4{
   border-bottom: 1px solid #ffffff;
@@ -246,7 +265,8 @@ blockquote{
   padding-right: 4px;
 }
 .name{
-  padding-left: 42px;
+  text-align: center;
+  color:red;
   font-family: 'Fjalla One', sans-serif;
 }
 .icon{

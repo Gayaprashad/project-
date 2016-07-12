@@ -19,3 +19,5 @@
 [0710/191742:ERROR:process_info.cc(608)] range at 0xffe79000, size 0xf84 fully unreadable
 [0710/092352:ERROR:file_io.cc(30)] read: expected 4, observed 0
 [0710/092401:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0710/153533:ERROR:file_io.cc(30)] read: expected 4, observed 0
+[0710/153857:ERROR:file_io.cc(30)] read: expected 4, observed 0

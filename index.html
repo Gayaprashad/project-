@@ -23,16 +23,18 @@
           <h5 id="acc"><font color="white">MY ACCOUNT</font></h5>
       </div>-->
       <header>
-        <img  id="logo" src="img/logo1.jpg" alt="Rolex logo" >
-        <ul class="menu">
-          <li><a href="#">Women</a> </li>
-          <li><a href="men.html">Men</a></li>
-          <li><a href="#">Kids</a></li>
-          <li><a href="#">Casual</a></li>
-          <li><a href="#">Sport</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Contact Us</a></li>
-        </ul>
+        <div class="logndmenu">
+            <img  id="logo" src="img/logo1.jpg" alt="Rolex logo" >
+            <ul class="menu">
+              <li><a href="#">Women</a> </li>
+              <li><a href="men.html">Men</a></li>
+              <li><a href="#">Kids</a></li>
+              <li><a href="#">Casual</a></li>
+              <li><a href="#">Sport</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
       </header>
       <!--crossfading effect by adding two images in hero unit-->
       <div id="crossfade">
@@ -46,15 +48,21 @@
       </div>
         <!--I made the images clickable by making the background as the image required of the anchor tag-->
         <div class="container_12">
-          <a href="busi.html" id="block1" class=" grid_4"></a>
-          <a href="#" id="block2" class="grid_4"></a>
-          <a href="#" id="block3" class="grid_4 omega"></a>
-          <h3 class="executive grid_4"> BUSINESS COLLECTION</h3>
-          <h3 class="women grid_4"> WOMEN COLLECTION</h3>
-          <h3 class="casual grid_4"> CASUAL COLLECTION</h3>
-          <p class=" gridp grid_4">Business collection consists of watches exclusively designed for people who have a taste for craftmanship</p>
-          <p class=" gridp grid_4">Women collection consists of watches for women who want to reward themselves for all that they have achieved </p>
-          <p class=" gridp grid_4">Casual collection consists of watches which are designed for reglar use</p>
+          <div class=" grid_4">
+            <div><a href="busi.html" id="block1" ><img src="/img/block1.jpg" alt="b1"></a></div>
+            <h3 class="executive"> BUSINESS COLLECTION</h3>
+            <p class=" gridp">Business collection consists of watches exclusively designed for people who have a taste for craftmanship</p>
+          </div>
+          <div class="grid_4">
+              <div><a href="#" id="block2"><img src="/img/block2.jpg" alt="b2"></a></div>
+              <h3 class="women "> WOMEN COLLECTION</h3>
+              <p class=" gridp ">Women collection consists of watches for women who want to reward themselves for all that they have achieved </p>
+          </div>
+          <div class="grid_4 omega">
+          <div><a href="#" id="block3"><img src="/img/block3.jpg" alt="b3"></a></div>
+          <h3 class="casual "> CASUAL COLLECTION</h3>
+          <p class=" gridp ">Casual collection consists of watches which are designed for reglar use</p>
+          </div>
         </div>
 
       <section class="para">

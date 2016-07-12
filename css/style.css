@@ -22,11 +22,7 @@ html,body{
   font-size: 25px;
   font-family: 'Open Sans';
   width: 1000px;
-  height: 250px;
-  /*height: 100%;*/
-  /*background: maroon;*/
-  /*color: black;*/
-  /*opacity: 0.7;*/
+  height: 25px;
 }
 blockquote {
   position: absolute;
@@ -53,31 +49,6 @@ blockquote {
 #q2{
   float:right;
 }
-/*.main{
-  margin-right:auto;
-  margin-left:auto;
-  width:960px;
- background: #D3D3D3;
-}*/
-#top{
-  height:20px;
-  background: black;
-  margin-right:auto;
-  margin-left:auto;
-  width:1349px;
-}
-.shipping{
-  width:400px;
-  float:left;
-  margin-left:200px;
-  margin-bottom: 5px;
-  font-family: 'Fjalla One', sans-serif;
-}
-#acc{
-  float:right;
-  margin-bottom:5px;
-  font-family: 'Fjalla One', sans-serif;
-}
 
 a{
   text-decoration:none;
@@ -90,27 +61,20 @@ header{
   left: 0;
   right:0;
   margin: 0 auto;
-  width:960px;
+  width:100%;
   clear:both;
   z-index: 99;
+  opacity:0.9;
+  background:#d8d8db;
+}
+.logndmenu{
+    width:960px;
+    margin:auto;
 }
 .menu li a{
   font-family: 'Fjalla One', sans-serif;
   text-transform:uppercase;
   font-size: 18px;
-}
-
-#sign{
-  margin-bottom: 0;
-  margin-right: 233px;
-}
-
-#sign li{
-  display:inline;
-  float:right;
-}
-#sign li a{
-  color:white;
 }
 
 #logo{
@@ -143,7 +107,7 @@ header{
   background: url(../img/block1.jpg) no-repeat;
   height: 180px;
   margin-top:30px;
-  margin-left: 15px;
+
 }
 /*this is used to add opacity effect when I hover over the elements in the block*/
 
@@ -174,11 +138,11 @@ header{
 }
 .executive{
   font-family: 'Fjalla One', sans-serif;
-  margin-left: 15px;
+
 }
 .women{
   font-family: 'Fjalla One', sans-serif;
-  margin-left: 10px;
+
 }
 .casual{
   font-family: 'Fjalla One', sans-serif;
